@@ -25,3 +25,16 @@ can use bablejs.io
 
 
 SETTING UP BABEL :
+
+npm install -g babel-cli@6.24.1
+babel --help
+npm init (for package.json)
+npm add babel-preset-react@6.24.1 babel-preset-env@1.5.2  (includes package-lock.json along with changes in package.json)
+All the above not working so use below --uninstall ver6 install ver7
+npm uninstall -g babel-cli
+npm uninstall babel-cli babel-core
+npm install --save-dev @babel/core @babel/cli @babel/preset-env @babel/preset-react
+npx babel src/app.js --out-file=public/scripts/app.js --watch(The watcher will be ready)
+Now split the terminal and run live server using live-server public
+Changes the ~scripts/app.js 
+Any changes made in ~src/app.js leads to changes in ~scripts/app.js
