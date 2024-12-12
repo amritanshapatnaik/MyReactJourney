@@ -1,0 +1,27 @@
+CREATION OF REACT TEMPLATE :
+
+yarn global add live-server
+live-server -v
+this not working 
+
+so use 
+npm install -g live-server
+live-server --version
+
+to run
+live-server public
+
+Created a scripts folder then added a app.js file with simple:   console.log('App.js is running');
+
+JSX: JavaScript XMl
+
+
+Add div tag to index.html :   <div id="app"></div>
+complete the react template by rendering
+
+
+can use bablejs.io
+
+
+
+SETTING UP BABEL :
